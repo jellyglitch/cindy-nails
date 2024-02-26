@@ -7,6 +7,10 @@ body {
     background-color: #7360DF;
 }
 
+.section3 {
+    background-color: #F2AFEF;
+}
+
 .container {
     margin: 0 100px;
 }
@@ -110,4 +114,19 @@ button {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 80px 100px 0 80px;
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 150px 100px 0;
+    font-size: 24px;
 }
