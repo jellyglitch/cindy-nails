@@ -116,6 +116,10 @@ button {
     border-radius: 10px;
 }
 
+.button-border {
+    border: 2px solid white;
+}
+
 .quote {
     color: #1F2937;
     font-style: italic;
@@ -129,4 +133,27 @@ button {
     justify-content: flex-end;
     padding: 0 150px 100px 0;
     font-size: 24px;
+}
+
+.action-container {
+    background-color: #C499F3;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding: 50px 0;
+    border-radius: 8px;
+    gap: 150px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.action-title {
+    font-size: 22px;
+    font-weight: bold;
 }
